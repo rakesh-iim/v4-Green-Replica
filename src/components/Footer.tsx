@@ -12,7 +12,7 @@ export default function Footer() {
               <img 
                 src="/Logo.png" 
                 alt="MrGardenr Logo" 
-                className="h-12 md:h-16 w-auto object-contain hidden bg-[#fbf9f1] p-2 rounded-lg" 
+                className="h-20 md:h-24 w-auto object-contain hidden bg-[#fbf9f1] p-3 rounded-xl shadow-lg" 
                 onLoad={(e) => {
                   e.currentTarget.classList.remove('hidden');
                   e.currentTarget.nextElementSibling?.classList.add('hidden');
@@ -27,28 +27,28 @@ export default function Footer() {
               Leading tech-driven landscape and garden design firm. We turn empty outdoor spaces into thriving centers of vitality.
             </p>
             <div className="flex space-x-4 mt-6 md:mt-0">
-              <a href="#" className="group relative w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-emerald-600 transition-colors">
+              <a href="#" className="group relative w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-emerald-600 hover:-translate-y-1 hover:scale-110 transition-all duration-300 shadow-md hover:shadow-emerald-500/25">
                 <Facebook className="w-5 h-5 text-white" />
                 <span className="absolute -top-10 left-1/2 -translate-x-1/2 bg-gray-800 text-emerald-50 text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none z-10">
                   Facebook
                   <span className="absolute top-full left-1/2 -translate-x-1/2 border-4 border-transparent border-t-gray-800"></span>
                 </span>
               </a>
-              <a href="#" className="group relative w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-emerald-600 transition-colors">
+              <a href="#" className="group relative w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-emerald-600 hover:-translate-y-1 hover:scale-110 transition-all duration-300 shadow-md hover:shadow-emerald-500/25">
                 <Twitter className="w-5 h-5 text-white" />
                 <span className="absolute -top-10 left-1/2 -translate-x-1/2 bg-gray-800 text-emerald-50 text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none z-10">
                   Twitter
                   <span className="absolute top-full left-1/2 -translate-x-1/2 border-4 border-transparent border-t-gray-800"></span>
                 </span>
               </a>
-              <a href="#" className="group relative w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-emerald-600 transition-colors">
+              <a href="#" className="group relative w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-emerald-600 hover:-translate-y-1 hover:scale-110 transition-all duration-300 shadow-md hover:shadow-emerald-500/25">
                 <Linkedin className="w-5 h-5 text-white" />
                 <span className="absolute -top-10 left-1/2 -translate-x-1/2 bg-gray-800 text-emerald-50 text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none z-10">
                   LinkedIn
                   <span className="absolute top-full left-1/2 -translate-x-1/2 border-4 border-transparent border-t-gray-800"></span>
                 </span>
               </a>
-              <a href="#" className="group relative w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-emerald-600 transition-colors">
+              <a href="#" className="group relative w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-emerald-600 hover:-translate-y-1 hover:scale-110 transition-all duration-300 shadow-md hover:shadow-emerald-500/25">
                 <Instagram className="w-5 h-5 text-white" />
                 <span className="absolute -top-10 left-1/2 -translate-x-1/2 bg-gray-800 text-emerald-50 text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none z-10">
                   Instagram
@@ -64,8 +64,8 @@ export default function Footer() {
               <li>
                 <Link to="/about" className="group relative hover:text-emerald-400 transition-colors inline-block">
                   About Us
-                  <span className="absolute left-0 bottom-full mb-2 bg-gray-800 text-emerald-50 text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none z-10 w-max shadow-lg">
-                    Discover our story and values
+                  <span className="absolute left-0 bottom-full mb-2 bg-gray-800 text-emerald-50 text-xs px-2 py-1 rounded opacity-0 translate-y-2 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300 whitespace-nowrap pointer-events-none z-10 w-max shadow-lg">
+                    Discover our roots, mission, and expert team
                     <span className="absolute top-full left-4 -translate-x-1/2 border-4 border-transparent border-t-gray-800"></span>
                   </span>
                 </Link>
@@ -73,8 +73,8 @@ export default function Footer() {
               <li>
                 <Link to="/services" className="group relative hover:text-emerald-400 transition-colors inline-block">
                   Our Services
-                  <span className="absolute left-0 bottom-full mb-2 bg-gray-800 text-emerald-50 text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none z-10 w-max shadow-lg">
-                    Explore our comprehensive landscaping solutions
+                  <span className="absolute left-0 bottom-full mb-2 bg-gray-800 text-emerald-50 text-xs px-2 py-1 rounded opacity-0 translate-y-2 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300 whitespace-nowrap pointer-events-none z-10 w-max shadow-lg">
+                    Explore our professional landscaping solutions
                     <span className="absolute top-full left-4 -translate-x-1/2 border-4 border-transparent border-t-gray-800"></span>
                   </span>
                 </Link>
@@ -82,8 +82,8 @@ export default function Footer() {
               <li>
                 <Link to="/portfolio" className="group relative hover:text-emerald-400 transition-colors inline-block">
                   Portfolio
-                  <span className="absolute left-0 bottom-full mb-2 bg-gray-800 text-emerald-50 text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none z-10 w-max shadow-lg">
-                    View our recent masterpieces
+                  <span className="absolute left-0 bottom-full mb-2 bg-gray-800 text-emerald-50 text-xs px-2 py-1 rounded opacity-0 translate-y-2 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300 whitespace-nowrap pointer-events-none z-10 w-max shadow-lg">
+                    View our recent masterpieces and past projects
                     <span className="absolute top-full left-4 -translate-x-1/2 border-4 border-transparent border-t-gray-800"></span>
                   </span>
                 </Link>
@@ -91,8 +91,8 @@ export default function Footer() {
               <li>
                 <Link to="/testimonials" className="group relative hover:text-emerald-400 transition-colors inline-block">
                   Testimonials
-                  <span className="absolute left-0 bottom-full mb-2 bg-gray-800 text-emerald-50 text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none z-10 w-max shadow-lg">
-                    Read what our happy clients say
+                  <span className="absolute left-0 bottom-full mb-2 bg-gray-800 text-emerald-50 text-xs px-2 py-1 rounded opacity-0 translate-y-2 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300 whitespace-nowrap pointer-events-none z-10 w-max shadow-lg">
+                    Read authentic reviews from our happy clients
                     <span className="absolute top-full left-4 -translate-x-1/2 border-4 border-transparent border-t-gray-800"></span>
                   </span>
                 </Link>
@@ -100,8 +100,8 @@ export default function Footer() {
               <li>
                 <Link to="/blogs" className="group relative hover:text-emerald-400 transition-colors inline-block">
                   Blogs
-                  <span className="absolute left-0 bottom-full mb-2 bg-gray-800 text-emerald-50 text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none z-10 w-max shadow-lg">
-                    Read latest trends and news
+                  <span className="absolute left-0 bottom-full mb-2 bg-gray-800 text-emerald-50 text-xs px-2 py-1 rounded opacity-0 translate-y-2 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300 whitespace-nowrap pointer-events-none z-10 w-max shadow-lg">
+                    Glean insights and the latest landscaping trends
                     <span className="absolute top-full left-4 -translate-x-1/2 border-4 border-transparent border-t-gray-800"></span>
                   </span>
                 </Link>
@@ -115,8 +115,8 @@ export default function Footer() {
               <li>
                 <a href="#" className="group relative hover:text-emerald-400 transition-colors inline-block">
                   Landscape Architecture
-                  <span className="absolute left-0 bottom-full mb-2 bg-gray-800 text-emerald-50 text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none z-10 w-max shadow-lg">
-                    Custom design and master planning
+                  <span className="absolute left-0 bottom-full mb-2 bg-gray-800 text-emerald-50 text-xs px-2 py-1 rounded opacity-0 translate-y-2 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300 whitespace-nowrap pointer-events-none z-10 w-max shadow-lg">
+                    Custom 3D design and expert master planning
                     <span className="absolute top-full left-8 -translate-x-1/2 border-4 border-transparent border-t-gray-800"></span>
                   </span>
                 </a>
@@ -124,8 +124,8 @@ export default function Footer() {
               <li>
                 <a href="#" className="group relative hover:text-emerald-400 transition-colors inline-block">
                   Lawn Care & Maintenance
-                  <span className="absolute left-0 bottom-full mb-2 bg-gray-800 text-emerald-50 text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none z-10 w-max shadow-lg">
-                    Keep your greens healthy all year
+                  <span className="absolute left-0 bottom-full mb-2 bg-gray-800 text-emerald-50 text-xs px-2 py-1 rounded opacity-0 translate-y-2 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300 whitespace-nowrap pointer-events-none z-10 w-max shadow-lg">
+                    Consistent upkeep to keep your greens healthy
                     <span className="absolute top-full left-8 -translate-x-1/2 border-4 border-transparent border-t-gray-800"></span>
                   </span>
                 </a>
@@ -133,8 +133,8 @@ export default function Footer() {
               <li>
                 <a href="#" className="group relative hover:text-emerald-400 transition-colors inline-block">
                   Hardscaping
-                  <span className="absolute left-0 bottom-full mb-2 bg-gray-800 text-emerald-50 text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none z-10 w-max shadow-lg">
-                    Patios, pathways, and stone features
+                  <span className="absolute left-0 bottom-full mb-2 bg-gray-800 text-emerald-50 text-xs px-2 py-1 rounded opacity-0 translate-y-2 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300 whitespace-nowrap pointer-events-none z-10 w-max shadow-lg">
+                    Expert installation of patios & stone features
                     <span className="absolute top-full left-8 -translate-x-1/2 border-4 border-transparent border-t-gray-800"></span>
                   </span>
                 </a>
@@ -142,8 +142,8 @@ export default function Footer() {
               <li>
                 <a href="#" className="group relative hover:text-emerald-400 transition-colors inline-block">
                   Seasonal Cleanups
-                  <span className="absolute left-0 bottom-full mb-2 bg-gray-800 text-emerald-50 text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none z-10 w-max shadow-lg">
-                    Spring & fall garden preparation
+                  <span className="absolute left-0 bottom-full mb-2 bg-gray-800 text-emerald-50 text-xs px-2 py-1 rounded opacity-0 translate-y-2 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300 whitespace-nowrap pointer-events-none z-10 w-max shadow-lg">
+                    Comprehensive spring & fall garden preparation
                     <span className="absolute top-full left-8 -translate-x-1/2 border-4 border-transparent border-t-gray-800"></span>
                   </span>
                 </a>

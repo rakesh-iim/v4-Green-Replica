@@ -1,1 +1,15 @@
 @import "tailwindcss";
+
+@theme {
+  --color-emerald-50: #f1f8f5;
+  --color-emerald-100: #ffffff;
+  --color-emerald-200: #bce1ce;
+  --color-emerald-300: #93cbb3;
+  --color-emerald-400: #6ab195;
+  --color-emerald-500: #5ba585; /* Lightened action color */
+  --color-emerald-600: #5ba585; /* Main target action color */
+  --color-emerald-700: #49856b; /* Darkened for hover */
+  --color-emerald-800: #3b6b56;
+  --color-emerald-900: #2e5445;
+  --color-emerald-950: #182e26;
+}

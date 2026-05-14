@@ -41,7 +41,7 @@ export default function GetInTouch() {
                     type="text" 
                     id="name" 
                     className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 transition-colors"
-                    placeholder="John Doe"
+                    placeholder="Rahul Sharma"
                   />
                 </div>
                 <div>
@@ -50,7 +50,7 @@ export default function GetInTouch() {
                     type="tel" 
                     id="phone" 
                     className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 transition-colors"
-                    placeholder="+91 00000 00000"
+                    placeholder="+91 98765 43210"
                   />
                 </div>
               </div>
@@ -61,7 +61,7 @@ export default function GetInTouch() {
                   type="email" 
                   id="email" 
                   className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 transition-colors"
-                  placeholder="john@company.com"
+                  placeholder="rahul@company.in"
                 />
               </div>
 
@@ -82,7 +82,7 @@ export default function GetInTouch() {
 
               <button 
                 type="button" 
-                className="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-4 px-8 rounded-xl flex justify-center items-center transition-colors group"
+                className="w-full bg-emerald-600 text-white border-2 border-transparent hover:bg-white hover:text-emerald-600 hover:border-emerald-600 font-bold py-4 px-8 rounded-xl flex justify-center items-center transition-all duration-300 group"
               >
                 Request Consultation
                 <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />

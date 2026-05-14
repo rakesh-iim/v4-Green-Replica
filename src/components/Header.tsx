@@ -36,7 +36,7 @@ export default function Header() {
           <div className="hidden md:flex items-center space-x-4">
             <a href="tel:+91888444888" className="flex items-center text-gray-700 hover:text-emerald-600 font-medium">
               <Phone className="w-4 h-4 mr-2" />
-              +91 888 444 888
+              +91 737 7551040
             </a>
             <button className="bg-emerald-600 text-white px-6 py-2.5 rounded-full font-medium hover:bg-emerald-700 transition-colors">
               Get an Estimate

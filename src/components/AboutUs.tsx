@@ -16,7 +16,7 @@ export default function AboutUs() {
             </p>
             <Link 
               to="/about"
-              className="inline-flex items-center text-emerald-600 font-semibold hover:text-emerald-700 hover:bg-emerald-50 px-6 py-3 rounded-full transition-colors border border-emerald-100"
+              className="inline-flex items-center bg-emerald-600 text-white font-semibold hover:bg-emerald-700 px-6 py-3 rounded-full transition-colors shadow-sm"
             >
               Read Full Story
               <ArrowRight className="w-5 h-5 ml-2" />
@@ -25,7 +25,7 @@ export default function AboutUs() {
           <div className="lg:w-1/2 relative">
             <div className="relative rounded-3xl overflow-hidden aspect-[4/3] shadow-2xl">
               <img 
-                src="https://images.unsplash.com/photo-1558904541-efa843a96f0f?auto=format&fit=crop&w=1200&q=80" 
+                src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1200&q=80" 
                 alt="Landscaping team at work" 
                 className="absolute inset-0 w-full h-full object-cover"
               />
