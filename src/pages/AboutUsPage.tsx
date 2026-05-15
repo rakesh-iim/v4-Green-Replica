@@ -25,7 +25,7 @@ export default function AboutUsPage() {
       <section className="py-24 bg-emerald-900 text-white relative overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://images.unsplash.com/photo-1558904541-efa843a96f0f?auto=format&fit=crop&w=1920&q=80" 
+            src="https://images.unsplash.com/photo-1584622781564-1d987f7333c1?auto=format&fit=crop&w=1920&q=80" 
             alt="Landscaping team at work" 
             className="w-full h-full object-cover opacity-20"
           />
@@ -54,7 +54,7 @@ export default function AboutUsPage() {
             <div className="lg:w-1/2 relative">
               <div className="relative rounded-3xl overflow-hidden aspect-[4/3] shadow-2xl">
                 <img 
-                  src="https://images.unsplash.com/photo-1584622781564-1d987f7333c1?auto=format&fit=crop&w=1200&q=80" 
+                  src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1200&q=80" 
                   alt="Beautiful landscape design" 
                   className="absolute inset-0 w-full h-full object-cover"
                 />

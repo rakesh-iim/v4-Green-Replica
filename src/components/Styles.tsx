@@ -1,9 +1,11 @@
+import { Link } from 'react-router-dom';
+
 export default function Styles() {
   const styles = [
-    { name: 'Landscape Architecture', image: 'https://images.unsplash.com/photo-1605810230434-7631ac76ec81?auto=format&fit=crop&w=600&q=80', description: 'Expertly curated layouts that balance saturated botanical tones with pristine structures.' },
-    { name: 'Lawn Care', image: 'https://images.unsplash.com/photo-1590487988256-9ed24133863e?auto=format&fit=crop&w=600&q=80', description: 'Precision mowing, aeration, and fertilization to maintain a vibrant, high-energy green canvas.' },
-    { name: 'Hardscaping', image: 'https://images.unsplash.com/photo-1584622781564-1d987f7333c1?auto=format&fit=crop&w=600&q=80', description: 'Structurally sound stonework, pathways, and patios that provide architectural definition.' },
-    { name: 'Seasonal Cleanup', image: 'https://images.unsplash.com/photo-1557090495-fc9312e77b28?auto=format&fit=crop&w=600&q=80', description: 'Rigorous maintenance to clear debris and prepare your landscape for optimal growth.' }
+    { name: 'Landscape Architecture', href: '/services/landscape-architecture', image: 'https://images.unsplash.com/photo-1605810230434-7631ac76ec81?auto=format&fit=crop&w=600&q=80', description: 'Expertly curated layouts that balance saturated botanical tones with pristine structures.' },
+    { name: 'Lawn Care', href: '/services/lawn-care', image: 'https://images.unsplash.com/photo-1590487988256-9ed24133863e?auto=format&fit=crop&w=600&q=80', description: 'Precision mowing, aeration, and fertilization to maintain a vibrant, high-energy green canvas.' },
+    { name: 'Hardscaping', href: '/services/hardscaping', image: 'https://images.unsplash.com/photo-1584622781564-1d987f7333c1?auto=format&fit=crop&w=600&q=80', description: 'Structurally sound stonework, pathways, and patios that provide architectural definition.' },
+    { name: 'Seasonal Cleanup', href: '/services/seasonal-cleanup', image: 'https://images.unsplash.com/photo-1557090495-fc9312e77b28?auto=format&fit=crop&w=600&q=80', description: 'Rigorous maintenance to clear debris and prepare your landscape for optimal growth.' }
   ];
 
   return (
@@ -18,7 +20,7 @@ export default function Styles() {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {styles.map((style, index) => (
-            <div key={index} className="group relative overflow-hidden rounded-2xl cursor-pointer transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-emerald-900/20">
+            <Link to={style.href} key={index} className="group relative overflow-hidden rounded-2xl cursor-pointer transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-emerald-900/20 block">
               <div 
                 className="aspect-[4/5] bg-cover bg-center transition-transform duration-700 group-hover:scale-110"
                 style={{ backgroundImage: `url(${style.image})` }}
@@ -30,7 +32,7 @@ export default function Styles() {
                   {style.description}
                 </p>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
       </div>
