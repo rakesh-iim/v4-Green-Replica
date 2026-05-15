@@ -18,7 +18,7 @@ import SeasonalCleanupPage from './pages/SeasonalCleanupPage';
 import GalleryPage from './pages/GalleryPage';
 import TestimonialsPage from './pages/TestimonialsPage';
 import BlogsPage from './pages/BlogsPage';
-import ChatWidget from './components/ChatWidget';
+// import ChatWidget from './components/ChatWidget';
 import ScrollToTop from './components/ScrollToTop';
 import ScrollToTopNav from './components/ScrollToTopNav';
 
@@ -44,7 +44,7 @@ export default function App() {
         </main>
         <Footer />
         <ScrollToTop />
-        <ChatWidget />
+        {/* <ChatWidget /> */}
       </div>
     </Router>
   );
