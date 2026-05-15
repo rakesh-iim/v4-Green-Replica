@@ -2,5 +2,5 @@
   "name": "Officebanao Green Replica",
   "description": "A green-themed replica of the Officebanao website, an office interior design platform.",
   "requestFramePermissions": [],
-  "majorCapabilities": []
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

@@ -14,7 +14,7 @@ export default function ClientMarquee() {
   const duplicatedLogos = [...logos, ...logos, ...logos, ...logos];
 
   return (
-    <section className="py-16 bg-[#fbf9f1] overflow-hidden border-t border-b border-gray-100" id="trusted-by">
+    <section className="py-16 bg-white overflow-hidden" id="trusted-by">
       <style>{`
         @keyframes scroll {
           0% { transform: translateX(0); }

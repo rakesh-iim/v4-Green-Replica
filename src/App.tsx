@@ -15,13 +15,17 @@ import LawnCarePage from './pages/LawnCarePage';
 import HardscapingPage from './pages/HardscapingPage';
 import SeasonalCleanupPage from './pages/SeasonalCleanupPage';
 
-import PortfolioPage from './pages/PortfolioPage';
+import GalleryPage from './pages/GalleryPage';
 import TestimonialsPage from './pages/TestimonialsPage';
 import BlogsPage from './pages/BlogsPage';
+import ChatWidget from './components/ChatWidget';
+import ScrollToTop from './components/ScrollToTop';
+import ScrollToTopNav from './components/ScrollToTopNav';
 
 export default function App() {
   return (
     <Router>
+      <ScrollToTopNav />
       <div className="font-sans antialiased text-gray-900 bg-[#fbf9f1] selection:bg-emerald-200 selection:text-emerald-900 min-h-screen flex flex-col">
         <Header />
         <main className="flex-grow">
@@ -33,12 +37,14 @@ export default function App() {
             <Route path="/services/lawn-care" element={<LawnCarePage />} />
             <Route path="/services/hardscaping" element={<HardscapingPage />} />
             <Route path="/services/seasonal-cleanup" element={<SeasonalCleanupPage />} />
-            <Route path="/portfolio" element={<PortfolioPage />} />
+            <Route path="/gallery" element={<GalleryPage />} />
             <Route path="/testimonials" element={<TestimonialsPage />} />
             <Route path="/blogs" element={<BlogsPage />} />
           </Routes>
         </main>
         <Footer />
+        <ScrollToTop />
+        <ChatWidget />
       </div>
     </Router>
   );

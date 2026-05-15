@@ -80,8 +80,8 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link to="/portfolio" className="group relative hover:text-emerald-400 transition-colors inline-block">
-                  Portfolio
+                <Link to="/gallery" className="group relative hover:text-emerald-400 transition-colors inline-block">
+                  Gallery
                   <span className="absolute left-0 bottom-full mb-2 bg-gray-800 text-emerald-50 text-xs px-2 py-1 rounded opacity-0 translate-y-2 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300 whitespace-nowrap pointer-events-none z-10 w-max shadow-lg">
                     View our recent masterpieces and past projects
                     <span className="absolute top-full left-4 -translate-x-1/2 border-4 border-transparent border-t-gray-800"></span>
@@ -156,7 +156,7 @@ export default function Footer() {
             <ul className="space-y-4">
               <li className="flex items-start">
                 <MapPin className="w-5 h-5 text-emerald-500 mr-3 mt-1 flex-shrink-0" />
-                <span>Level 5, One Horizon Center, DLF Phase 5, Gurugram, Haryana 122002</span>
+                <span>Ahmedabad | Surat | Vadodara | Bangalore</span>
               </li>
               <li className="flex items-center">
                 <Phone className="w-5 h-5 text-emerald-500 mr-3 flex-shrink-0" />

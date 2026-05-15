@@ -28,8 +28,7 @@ export default function Header() {
           <nav className="hidden md:flex space-x-8">
             <Link to="/about" className="text-gray-700 hover:text-emerald-600 font-medium transition-colors">About Us</Link>
             <Link to="/services" className="text-gray-700 hover:text-emerald-600 font-medium transition-colors">Services</Link>
-            <Link to="/portfolio" className="text-gray-700 hover:text-emerald-600 font-medium transition-colors">Portfolio</Link>
-            <Link to="/testimonials" className="text-gray-700 hover:text-emerald-600 font-medium transition-colors">Testimonials</Link>
+            <Link to="/gallery" className="text-gray-700 hover:text-emerald-600 font-medium transition-colors">Gallery</Link>
             <Link to="/blogs" className="text-gray-700 hover:text-emerald-600 font-medium transition-colors">Blogs</Link>
           </nav>
 
@@ -57,8 +56,7 @@ export default function Header() {
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             <Link to="/about" onClick={() => setIsOpen(false)} className="block px-3 py-2 text-gray-700 hover:text-emerald-600 font-medium">About Us</Link>
             <Link to="/services" onClick={() => setIsOpen(false)} className="block px-3 py-2 text-gray-700 hover:text-emerald-600 font-medium">Services</Link>
-            <Link to="/portfolio" onClick={() => setIsOpen(false)} className="block px-3 py-2 text-gray-700 hover:text-emerald-600 font-medium">Portfolio</Link>
-            <Link to="/testimonials" onClick={() => setIsOpen(false)} className="block px-3 py-2 text-gray-700 hover:text-emerald-600 font-medium">Testimonials</Link>
+            <Link to="/gallery" onClick={() => setIsOpen(false)} className="block px-3 py-2 text-gray-700 hover:text-emerald-600 font-medium">Gallery</Link>
             <Link to="/blogs" onClick={() => setIsOpen(false)} className="block px-3 py-2 text-gray-700 hover:text-emerald-600 font-medium">Blogs</Link>
             <a href="tel:+91888444888" className="block px-3 py-2 text-gray-700 hover:text-emerald-600 font-medium flex items-center">
                <Phone className="w-4 h-4 mr-2" /> +91 888 444 888

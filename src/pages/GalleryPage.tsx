@@ -1,6 +1,6 @@
-import Portfolio from '../components/Portfolio';
+import Gallery from '../components/Gallery';
 
-export default function PortfolioPage() {
+export default function GalleryPage() {
   return (
     <div className="pt-20">
       <section className="py-24 bg-emerald-900 text-white relative overflow-hidden">
@@ -11,7 +11,7 @@ export default function PortfolioPage() {
           </p>
         </div>
       </section>
-      <Portfolio />
+      <Gallery hideViewAll={true} />
     </div>
   );
 }
